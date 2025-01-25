@@ -1,0 +1,20 @@
+[project]
+name = "generative-ai-with-llms"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Mark Barbaric",email = "markantonybarbaric@hotmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets (>=3.2.0,<4.0.0)",
+    "transformers (>=4.48.1,<5.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "torch (>=2.5.1,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

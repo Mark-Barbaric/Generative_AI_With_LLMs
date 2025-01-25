@@ -1,0 +1,8 @@
+datasets==2.17.0
+torch
+torchdata
+transformers==4.27.2
+ipykernel
+evaluate
+rouge_score
+peft
